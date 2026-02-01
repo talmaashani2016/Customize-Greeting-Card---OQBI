@@ -66,7 +66,6 @@ const Home = () => {
       if (document.fonts?.ready) await document.fonts.ready;
 
       const canvas = await html2canvas(imageRef.current, {
-        scale: 2,
         backgroundColor: null,
         useCORS: true,
       });
